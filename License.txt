@@ -1,0 +1,114 @@
+
+使用ライブラリとライセンス情報
+Tkinter
+
+用途: GUIアプリケーションの構築
+ライセンス: Python Software Foundation License
+説明: TkinterはPythonに組み込まれたライブラリで、GUIアプリケーションを構築するために使用されます。
+threading
+
+用途: マルチスレッド処理の実装
+ライセンス: Python Software Foundation License
+説明: threadingはPython標準ライブラリで、スレッドを管理するために使用されます。
+subprocess
+
+用途: 外部プロセスの実行
+ライセンス: Python Software Foundation License
+説明: subprocessはPython標準ライブラリで、外部コマンドの実行やプロセス間通信を行います。
+os
+
+用途: ファイルシステム操作
+ライセンス: Python Software Foundation License
+説明: osはPython標準ライブラリで、OSに依存した操作を提供します。
+sys
+
+用途: システム固有のパラメータや関数へのアクセス
+ライセンス: Python Software Foundation License
+説明: sysはPython標準ライブラリで、Pythonインタープリタとの対話を行います。
+serial (pyserial)
+
+用途: シリアルポートとの通信
+ライセンス: BSD License
+説明: pyserialは、シリアル通信を行うためのライブラリです。
+tkinter.ttk
+
+用途: 高度なウィジェットの作成
+ライセンス: Python Software Foundation License
+説明: ttkはTkinterの拡張で、テーマ可能なウィジェットを提供します。
+filedialog
+
+用途: ファイルダイアログの表示
+ライセンス: Python Software Foundation License
+説明: filedialogはTkinterの一部で、ファイル選択ダイアログを提供します。
+messagebox
+
+用途: メッセージボックスの表示
+ライセンス: Python Software Foundation License
+説明: messageboxはTkinterの一部で、通知やエラーダイアログを表示します。
+
+-------------------------------------------------------------------------------------
+
+# License Information
+
+## Python標準ライブラリ
+以下のライブラリはPython標準ライブラリに含まれており、Python Software Foundation Licenseの下でライセンスされています。
+- Tkinter: GUIアプリケーション構築。
+- threading: マルチスレッド処理の実装。
+- subprocess: 外部プロセスの実行。
+- os: ファイルシステム操作。
+- sys: システム固有のパラメータや関数へのアクセス。
+- tkinter.ttk: 高度なウィジェットの作成。
+- filedialog: ファイルダイアログの表示。
+- messagebox: メッセージボックスの表示。
+
+詳細は以下を参照してください:
+[Python Software Foundation License](https://docs.python.org/3/license.html)
+
+## サードパーティライブラリ
+1. pyserial
+   - **用途:** シリアルポートとの通信。
+   - **ライセンス:** BSD License
+   - **URL:** https://github.com/pyserial/pyserial
+
+## 外部ツール
+1. esptool
+   - **用途:** ESP32向けのファームウェア書き込み。
+   - **ライセンス:** GPLv2
+   - **URL:** https://github.com/espressif/esptool
+
+2. espota.py
+   - **用途:** OTAアップデートの実行。
+   - **ライセンス:** Apache License 2.0
+   - **URL:** https://github.com/espressif/esp-idf
+
+------------------------------------------------------------------------------------------------------------
+## Python Standard Library
+The following libraries are included in the Python standard library and are licensed under the Python Software Foundation License.
+- Tkinter: Building GUI applications.
+- threading: Implementing multithreading.
+- subprocess: Running external processes.
+- os: Manipulating the file system.
+- sys: Accessing system-specific parameters and functions.
+- tkinter.ttk: Creating advanced widgets.
+- filedialog: Displaying file dialogs.
+- messagebox: Displaying message boxes.
+
+For more information, see:
+[Python Software Foundation License](https://docs.python.org/3/license.html)
+
+## Third-Party Libraries
+1. pyserial
+- **Purpose:** Communicating with serial ports.
+- **License:** BSD License
+- **URL:** https://github.com/pyserial/pyserial
+
+## External Tools
+1. esptool
+- **Purpose:** Writing firmware for the ESP32.
+- **License:** GPLv2
+- **URL:** https://github.com/espressif/esptool
+
+2. espota.py
+- **Purpose:** Perform OTA updates.
+- **License:** Apache License 2.0
+- **URL:** https://github.com/espressif/esp-idf
