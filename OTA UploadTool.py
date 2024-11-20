@@ -156,14 +156,16 @@ class OTAUploaderApp:
 
     def upload_firmware_ota(self, ip_address):
         try:
-            espota_path = os.path.join(os.path.dirname(__file__), "espota.py")
+            current_dir = os.path.dirname(os.path.abspath(sys.executable))
+            espota_path = os.path.join(current_dir, "espota.exe")
+
             if not os.path.exists(espota_path):
-                self.update_log(f"Error: espota.py not found at {espota_path}")
-                messagebox.showerror("Error", f"espota.py not found at {espota_path}")
+                self.update_log(f"Error: espota.exe not found in {current_dir}")
+                messagebox.showerror("Error", "espota.exe not found.")
                 return
 
             command = [
-                "python", espota_path,
+                espota_path,
                 "--ip", ip_address,
                 "--port", "3232",
                 "--file", self.selected_file
@@ -210,6 +212,7 @@ class OTAUploaderApp:
 
     def upload_firmware_serial(self, com_port, baud_rate):
         try:
+            # `esptool.exe` を直接参照
             esptool_path = os.path.join(os.path.dirname(sys.executable), "esptool.exe")
             if not os.path.exists(esptool_path):
                 self.update_log(f"Error: esptool.exe not found.")
